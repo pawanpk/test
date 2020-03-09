@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         String helpLink = "<a href='https://www.youtube.com/watch?time_continue=3&v=scSH1P7mHVs'>Need Help?</a>";
         mEtHelp.setText(Html.fromHtml(helpLink));
         mEtHelp.setVisibility(View.VISIBLE);
+        //new commit
         if(mEtHelp.getVisibility()==View.VISIBLE){
             Log.d("visiblr","YESSS");
         }
